@@ -1,0 +1,28 @@
+1550938916a:1:{s:13:"site/meta.htm";a:5:{s:8:"fileName";s:13:"site/meta.htm";s:7:"content";s:752:"<meta charset="utf-8">
+<title>Hash Bazaar</title>
+<meta name="description" content="Bitcoin is the digital gold of the future & HashBazaar is the most cost effective cloud mining company on the market. Mine bitcoin through the cloud, get started today!">
+<meta name="title" content="Hash Bazaar">
+<!-- <meta name="author" content="OctoberCMS"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <meta name="generator" content="OctoberCMS"> -->
+<link rel="icon" type="image/png" href="http://hashbazaar.com/img/favicon.ico">
+<link href="{{ [
+    '@framework.extras',
+    'assets/less/vendor.less'
+]|theme }}" rel="stylesheet">
+<link href="{{ ['assets/less/theme.less']|theme }}" rel="stylesheet">
+{% styles %}
+";s:5:"mtime";i:1550938313;s:6:"markup";s:750:"<meta charset="utf-8">
+<title>Hash Bazaar</title>
+<meta name="description" content="Bitcoin is the digital gold of the future & HashBazaar is the most cost effective cloud mining company on the market. Mine bitcoin through the cloud, get started today!">
+<meta name="title" content="Hash Bazaar">
+<!-- <meta name="author" content="OctoberCMS"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <meta name="generator" content="OctoberCMS"> -->
+<link rel="icon" type="image/png" href="http://hashbazaar.com/img/favicon.ico">
+<link href="{{ [
+    '@framework.extras',
+    'assets/less/vendor.less'
+]|theme }}" rel="stylesheet">
+<link href="{{ ['assets/less/theme.less']|theme }}" rel="stylesheet">
+{% styles %}";s:4:"code";N;}}

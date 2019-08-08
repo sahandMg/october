@@ -1,0 +1,58 @@
+1565198815a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1037:"==
+<div class="row">
+    <div class="col-sm-9">
+        <h1 class="site-name">
+            <a href="{{ 'home'|page }}"><img class="navbar-small-logo" src="http://blog.hashbazaar.com/themes/responsiv-clean/assets/images/Logo_header.svg" alt="hashbazaar Logo"></a>
+        </h1>
+        <p class="site-motto">
+            {{ this.theme.site_motto }}
+        </p>
+    </div>
+    <div class="col-sm-3">
+        <button type="button" class="sidebar-toggle" onclick="toggleSidebar()">
+            <span class="icon-bars">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+            <span class="menu-text">Menu</span>
+        </button>
+    </div>
+    <style>
+      #layout-header {
+       background-color: black;
+       color: white;
+      }
+      #layout-header .sidebar-toggle { border: 1px solid white;}
+      #layout-header .sidebar-toggle .icon-bar {background-color: white; }
+
+   </style>
+</div>";s:5:"mtime";i:1552490919;s:6:"markup";s:1034:"<div class="row">
+    <div class="col-sm-9">
+        <h1 class="site-name">
+            <a href="{{ 'home'|page }}"><img class="navbar-small-logo" src="http://blog.hashbazaar.com/themes/responsiv-clean/assets/images/Logo_header.svg" alt="hashbazaar Logo"></a>
+        </h1>
+        <p class="site-motto">
+            {{ this.theme.site_motto }}
+        </p>
+    </div>
+    <div class="col-sm-3">
+        <button type="button" class="sidebar-toggle" onclick="toggleSidebar()">
+            <span class="icon-bars">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+            <span class="menu-text">Menu</span>
+        </button>
+    </div>
+    <style>
+      #layout-header {
+       background-color: black;
+       color: white;
+      }
+      #layout-header .sidebar-toggle { border: 1px solid white;}
+      #layout-header .sidebar-toggle .icon-bar {background-color: white; }
+
+   </style>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

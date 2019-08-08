@@ -1,17 +1,18 @@
 [blogPosts]
-postsPerPage = "5"
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
 categoryPage = "blog/category"
 postPage = "blog/post"
-sortOrder = "published_at desc"
 ==
-
 <div class="sidebar-close visible-sm visible-xs">
     <a href="javascript:;" onclick="toggleSidebar()" class="close">&times;</a>
 </div>
 
 <div class="sidebar-segment hidden-sm hidden-xs">
     <h1 class="site-name">
-        <a href="http://hashbazaar.com/">HashBazaar</a>
+        <a href="http://hashbazaar.com/"><img class="navbar-small-logo" src="http://blog.hashbazaar.com/themes/responsiv-clean/assets/images/Logo_header.svg" alt="hashbazaar Logo"></a>
     </h1>
     <p class="site-motto">cloud mining company</p>
 </div>
@@ -38,3 +39,11 @@ sortOrder = "published_at desc"
         <li><a href="{{ 'blog/rss'|page }}">RSS Feed</a></li> -->
     </ul>
 </div>
+<style>
+  #layout-sidebar {
+      background-color: black;
+      color: white;
+  }
+  .sidebar-segment h2{color: white;}
+  .segment-list li a {color: white !important;}
+</style>

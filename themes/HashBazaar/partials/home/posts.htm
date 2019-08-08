@@ -1,0 +1,7 @@
+{% for post in posts %}
+
+    <!-- <div class="home-post"> -->
+    <div class="col-md-6 col-sm-12">
+        {% partial 'blog/post' post=post %}
+    </div>
+{% endfor %}

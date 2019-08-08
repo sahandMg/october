@@ -1,0 +1,242 @@
+1565281009a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:4569:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HashBazaar - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/main.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+    <body>
+
+    <header id="header" >
+      <div class="header-navbar">
+         <div id="header-navbar-logo">
+            <ul>
+                <li class="navbar-list big"><a href="http://hashbazaar.com"><img class="navbar-small-logo" src="https://www.hashbazaar.com/img/Logo_header.svg" alt="hash bazaar Logo"></a></li>
+            </ul>
+         </div>
+         <div id="header-navbar-menu" >
+            <ul>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/faq">سوالات متداول</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/about">درباره ما</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/blog">مجله</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/collaboration">همکاری سازمانی</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/">خانه</a></li>
+                <li class="flags">
+                    <div>
+                        <a href="https://www.hashbazaar.com/fa/blog" id="persianFA"><img src="https://www.hashbazaar.com/flags/ir.svg" alt="Persian (FA)"></a>
+                        <a href="https://www.hashbazaar.com/en/blog" id="engUK"><img src="https://www.hashbazaar.com/flags/uk.svg" alt="English (UK)"></a>
+                    </div>
+                </li>
+            </ul>
+            
+         </div>
+         <div class="navigation-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+         </div>
+     </div>
+    </header>
+    <div class="container">
+    <br/><br/><br/><br/><br/><br/>
+     <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+    </div>
+       
+
+        <!-- Footer -->
+     <!--    <footer id="layout-footer">
+            {% partial 'site/footer' %}
+        </footer> -->
+
+
+<style type="text/css">
+    #header-navbar-menu {
+        text-align: right;
+    }
+    #header-navbar-menu ul li {
+        padding-right: 20px;
+    }
+    
+    .flags a {
+        float:right
+    }
+    
+    .flags a#persianFA {
+        border-left: 1px solid white;
+        margin-left: 10px
+    }
+
+    @media screen and (max-width:769px){
+        .flags {
+            margin-left: 95% !important
+        }
+    }
+</style>
+        <!-- Scripts -->
+        <!-- <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script> -->
+        <!-- <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script>
+        <!-- <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/jquery.animate-colors.js'|theme }}"></script>
+     <!--    {% framework extras %}
+        {% scripts %} -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+             $('.navigation-menu').click(function(){
+                console.log("navigation test");
+                if(flag == 0) {
+                  flag = 1 ;
+                  $('#header-navbar-menu').show();
+                  $('.navigation-menu').addClass( "change" );
+                    isOpen =true;
+
+                } else {
+                  flag = 0 ;
+                  $('#header-navbar-menu').hide();
+                  $('.navigation-menu').removeClass( "change" );
+                  isOpen =false;
+
+                }
+                
+            });
+         });
+</script>
+    </body>
+</html>
+";s:5:"mtime";i:1565210749;s:6:"markup";s:4534:"<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HashBazaar - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/main.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+    <body>
+
+    <header id="header" >
+      <div class="header-navbar">
+         <div id="header-navbar-logo">
+            <ul>
+                <li class="navbar-list big"><a href="http://hashbazaar.com"><img class="navbar-small-logo" src="https://www.hashbazaar.com/img/Logo_header.svg" alt="hash bazaar Logo"></a></li>
+            </ul>
+         </div>
+         <div id="header-navbar-menu" >
+            <ul>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/faq">سوالات متداول</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/about">درباره ما</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/blog">مجله</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/collaboration">همکاری سازمانی</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/">خانه</a></li>
+                <li class="flags">
+                    <div>
+                        <a href="https://www.hashbazaar.com/fa/blog" id="persianFA"><img src="https://www.hashbazaar.com/flags/ir.svg" alt="Persian (FA)"></a>
+                        <a href="https://www.hashbazaar.com/en/blog" id="engUK"><img src="https://www.hashbazaar.com/flags/uk.svg" alt="English (UK)"></a>
+                    </div>
+                </li>
+            </ul>
+            
+         </div>
+         <div class="navigation-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+         </div>
+     </div>
+    </header>
+    <div class="container">
+    <br/><br/><br/><br/><br/><br/>
+     <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+    </div>
+       
+
+        <!-- Footer -->
+     <!--    <footer id="layout-footer">
+            {% partial 'site/footer' %}
+        </footer> -->
+
+
+<style type="text/css">
+    #header-navbar-menu {
+        text-align: right;
+    }
+    #header-navbar-menu ul li {
+        padding-right: 20px;
+    }
+    
+    .flags a {
+        float:right
+    }
+    
+    .flags a#persianFA {
+        border-left: 1px solid white;
+        margin-left: 10px
+    }
+
+    @media screen and (max-width:769px){
+        .flags {
+            margin-left: 95% !important
+        }
+    }
+</style>
+        <!-- Scripts -->
+        <!-- <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script> -->
+        <!-- <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script>
+        <!-- <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/jquery.animate-colors.js'|theme }}"></script>
+     <!--    {% framework extras %}
+        {% scripts %} -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+             $('.navigation-menu').click(function(){
+                console.log("navigation test");
+                if(flag == 0) {
+                  flag = 1 ;
+                  $('#header-navbar-menu').show();
+                  $('.navigation-menu').addClass( "change" );
+                    isOpen =true;
+
+                } else {
+                  flag = 0 ;
+                  $('#header-navbar-menu').hide();
+                  $('.navigation-menu').removeClass( "change" );
+                  isOpen =false;
+
+                }
+                
+            });
+         });
+</script>
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}

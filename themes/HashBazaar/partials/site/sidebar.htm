@@ -1,0 +1,49 @@
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post" 81761
+==
+<div class="sidebar-close visible-sm visible-xs">
+    <a href="javascript:;" onclick="toggleSidebar()" class="close">&times;</a>
+</div>
+
+<div class="sidebar-segment hidden-sm hidden-xs">
+    <h1 class="site-name">
+        <a href="http://hashbazaar.com/"><img class="navbar-small-logo" src="http://blog.hashbazaar.com/themes/responsiv-clean/assets/images/Logo_header.svg" alt="hashbazaar Logo"></a>
+    </h1>
+    <p class="site-motto">cloud mining company</p>
+</div>
+
+<div class="sidebar-segment">
+    <h2 class="segment-title">Recent posts</h2>
+    <ul class="segment-list">
+        {% for post in blogPosts.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="sidebar-segment">
+    <h2 class="segment-title">Follow me</h2>
+    <ul class="segment-list">
+        <li><a href="https://www.instagram.com/hashbazaar/" target="_blank">Instagram</a></li>
+        <!-- {% if this.theme.twitter_url %}
+            <li><a href="{{ this.theme.twitter_url }}" target="_blank">Twitter</a></li>
+        {% endif %}
+        {% if this.theme.facebook_url %}
+            <li><a href="{{ this.theme.facebook_url }}" target="_blank">Facebook</a></li>
+        {% endif %}
+        <li><a href="{{ 'blog/rss'|page }}">RSS Feed</a></li> -->
+    </ul>
+</div>
+<style>
+  #layout-sidebar {
+      background-color: black;
+      color: white;
+  }
+  .sidebar-segment h2{color: white;}
+  .segment-list li a {color: white !important;}
+</style>

@@ -1,0 +1,458 @@
+1565358299a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:8723:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HashBazaar - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/main.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+        {% styles %}
+
+     <STYLE>
+      @font-face {
+        font-family: BYekanFont;
+        src: url({{ 'assets/fonts/BYekan.ttf'|theme }});
+      }
+      * {
+        font-family: BYekanFont;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: BYekanFont;
+      }
+      th, a, p, input, button, legend, label {font-family: BYekanFont;}
+      .btn {font-family: BYekanFont;}
+    </STYLE>
+    </head>
+    <body>
+
+    <header id="header" >
+      <div class="header-navbar">
+         <div id="header-navbar-logo">
+            <ul>
+                <li class="navbar-list big"><a href="http://hashbazaar.com"><img class="navbar-small-logo" src="https://www.hashbazaar.com/img/Logo_header.svg" alt="hash bazaar Logo"></a></li>
+            </ul>
+         </div>
+         <div id="header-navbar-menu" >
+            <ul>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/faq">سوالات متداول</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/about">درباره ما</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/blog">مجله</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/collaboration">همکاری سازمانی</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/">خانه</a></li>
+                <li class="flags">
+                    <div>
+                        <a href="https://www.hashbazaar.com/fa/blog" id="persianFA"><img src="https://www.hashbazaar.com/flags/ir.svg" alt="Persian (FA)"></a>
+                        <a href="https://www.hashbazaar.com/en/blog" id="engUK"><img src="https://www.hashbazaar.com/flags/uk.svg" alt="English (UK)"></a>
+                    </div>
+                </li>
+            </ul>
+            
+         </div>
+         <div class="navigation-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+         </div>
+     </div>
+    </header>
+    <div class="container">
+    <br/><br/><br/><br/><br/><br/>
+     <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+    </div>
+       
+
+        <!-- Footer -->
+    <footer class="backgroundMoreGrey pl-5 pr-5">
+      <div class="row">
+          <div class="followUs col-lg-3 col-md-3 col-sm-12">
+             <h6 class="text-center">ما را در شبکه های اجتماعی دنبال کنید</h6>     
+             <!-- <div class="network-flex"> -->
+                    <div class="row  pl-1 pr-1">
+                        <a href="https://www.linkedin.com/company/hashbazaar" class="col-md-3 col-sm-3 socialnet-flex">
+                                <img src="https://www.hashbazaar.com/img/icons/linkedin.png" alt="linkedin"></a>
+
+                        <a href="https://www.instagram.com/hashbazaar/" target="_blank" class="col-md-3 col-sm-3 socialnet-flex">
+                                <img src="https://www.hashbazaar.com/img/icons/insta.svg" alt="hashbazaar instagram"></a> 
+      
+                        <a href="https://twitter.com/Hashbazaar_CMC" class="col-md-3 col-sm-3 socialnet-flex" >
+                                <img src="https://www.hashbazaar.com/img/icons/tweet.svg" alt="Twitter"></a>
+                    </div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12" style="text-align: right;color: white;">
+            <div class="important-links row">
+                <div class="col-md-5 col-sm-6" style="display: flex;flex-direction: column;">
+                    <a href="https://www.hashbazaar.com/about">درباره ما</a>
+                    <a href="https://www.hashbazaar.com/faq">سوالات متداول</a>
+                </div>
+                <div class="col-md-5 col-sm-6" style="display: flex;flex-direction: column;">
+                    <a href="https://www.hashbazaar.com/">خانه</a>
+                    <a href="https://www.hashbazaar.com/collaboration">همکاری سازمانی</a>
+                    <a href="https://www.hashbazaar.com/blog">مجله</a>
+                </div>
+            </div>
+          </div>
+          <div class="contact-us col-lg-5 col-md-4 col-sm-12" style="text-align: right;">
+              <h6 class="text-center">تماس با ما</h6> 
+              <div class="tell">
+                   <a href="tel:+989371869568" style="color:white; cursor:pointer">
+                         0937 186 9568 &nbsp;<i class="fa fa-phone" aria-hidden="true"></i> 
+                   </a>
+              </div>
+              <div class="" style="direction:rtl">
+                   <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                تهران، میدان ونک، خیابان ملاصدرا، خیابان پردیس، پلاک ۷
+               </div>
+          </div>
+      </div>
+      <div class="container text-center copy-right">
+         <p>تمام حقوق مادی و معنوی آثار متعلق به هش بازار می باشد.</p>
+      </div>
+  </footer>
+
+
+<style type="text/css">
+    #header-navbar-menu {
+        text-align: right;
+    }
+    #header-navbar-menu ul li {
+        padding-right: 20px;
+    }
+    
+    .flags a {
+        float:right
+    }
+    
+    .flags a#persianFA {
+        border-left: 1px solid white;
+        margin-left: 10px
+    }
+
+    @media screen and (max-width:769px){
+        .flags {
+            margin-left: 95% !important
+        }
+    }
+
+    .footerrow {
+        font-size: 1.6rem
+    }
+    .followUs img {
+        height: 60px;
+
+    }
+    .followUs div {
+        margin-top: 5%;
+    }
+
+    footer {margin-top: 5%;}
+    footer a {
+        color: white;
+    }
+    .copy-right {margin-top: 2%;direction: rtl; font-size: 1rem;}
+
+    @media screen and (max-width:769px){
+      .followUs img {
+        height: 40px;
+       }
+       .followUs h6 {
+         font-size: 0.8rem;
+       }
+    }
+    @media screen and (max-width:420px){
+        .footerrow {
+            font-size: 1.2rem
+        }
+
+        .ctr {
+            margin-bottom: 5%
+        }
+
+         .tell {
+             text-align: center;
+             
+         } 
+         .copy-right {margin-top: 5%; font-size: 0.8rem;}  
+         .contact-us {margin-top: 5%;}
+         .important-links div{
+            width: 50%;text-align: center;
+         }
+         .important-links { margin-top: 5%; }
+         .followUs div a {
+            width: 33%;
+          }
+    }
+</style>
+        <!-- Scripts -->
+        <!-- <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script> -->
+        <!-- <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script>
+        <!-- <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/jquery.animate-colors.js'|theme }}"></script>
+     <!--    {% framework extras %}
+        {% scripts %} -->
+<script type="text/javascript">
+    $(document).ready(function(){
+             var flag = 0;
+             $('.navigation-menu').click(function(){
+                console.log("navigation test");
+                if(flag == 0) {
+                  flag = 1 ;
+                  $('#header-navbar-menu').show();
+                  $('.navigation-menu').addClass( "change" );
+                    isOpen =true;
+
+                } else {
+                  flag = 0 ;
+                  $('#header-navbar-menu').hide();
+                  $('.navigation-menu').removeClass( "change" );
+                  isOpen =false;
+
+                }
+                
+            });
+         });
+</script>
+    </body>
+</html>
+";s:5:"mtime";i:1565357697;s:6:"markup";s:8688:"<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HashBazaar - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/main.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/bootstrap.min.css'|theme }}" rel="stylesheet">
+        {% styles %}
+
+     <STYLE>
+      @font-face {
+        font-family: BYekanFont;
+        src: url({{ 'assets/fonts/BYekan.ttf'|theme }});
+      }
+      * {
+        font-family: BYekanFont;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: BYekanFont;
+      }
+      th, a, p, input, button, legend, label {font-family: BYekanFont;}
+      .btn {font-family: BYekanFont;}
+    </STYLE>
+    </head>
+    <body>
+
+    <header id="header" >
+      <div class="header-navbar">
+         <div id="header-navbar-logo">
+            <ul>
+                <li class="navbar-list big"><a href="http://hashbazaar.com"><img class="navbar-small-logo" src="https://www.hashbazaar.com/img/Logo_header.svg" alt="hash bazaar Logo"></a></li>
+            </ul>
+         </div>
+         <div id="header-navbar-menu" >
+            <ul>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/faq">سوالات متداول</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/about">درباره ما</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/blog">مجله</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/collaboration">همکاری سازمانی</a></li>
+                <li class="navbar-list small1 a1"><a href="https://www.hashbazaar.com/">خانه</a></li>
+                <li class="flags">
+                    <div>
+                        <a href="https://www.hashbazaar.com/fa/blog" id="persianFA"><img src="https://www.hashbazaar.com/flags/ir.svg" alt="Persian (FA)"></a>
+                        <a href="https://www.hashbazaar.com/en/blog" id="engUK"><img src="https://www.hashbazaar.com/flags/uk.svg" alt="English (UK)"></a>
+                    </div>
+                </li>
+            </ul>
+            
+         </div>
+         <div class="navigation-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+         </div>
+     </div>
+    </header>
+    <div class="container">
+    <br/><br/><br/><br/><br/><br/>
+     <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+    </div>
+       
+
+        <!-- Footer -->
+    <footer class="backgroundMoreGrey pl-5 pr-5">
+      <div class="row">
+          <div class="followUs col-lg-3 col-md-3 col-sm-12">
+             <h6 class="text-center">ما را در شبکه های اجتماعی دنبال کنید</h6>     
+             <!-- <div class="network-flex"> -->
+                    <div class="row  pl-1 pr-1">
+                        <a href="https://www.linkedin.com/company/hashbazaar" class="col-md-3 col-sm-3 socialnet-flex">
+                                <img src="https://www.hashbazaar.com/img/icons/linkedin.png" alt="linkedin"></a>
+
+                        <a href="https://www.instagram.com/hashbazaar/" target="_blank" class="col-md-3 col-sm-3 socialnet-flex">
+                                <img src="https://www.hashbazaar.com/img/icons/insta.svg" alt="hashbazaar instagram"></a> 
+      
+                        <a href="https://twitter.com/Hashbazaar_CMC" class="col-md-3 col-sm-3 socialnet-flex" >
+                                <img src="https://www.hashbazaar.com/img/icons/tweet.svg" alt="Twitter"></a>
+                    </div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12" style="text-align: right;color: white;">
+            <div class="important-links row">
+                <div class="col-md-5 col-sm-6" style="display: flex;flex-direction: column;">
+                    <a href="https://www.hashbazaar.com/about">درباره ما</a>
+                    <a href="https://www.hashbazaar.com/faq">سوالات متداول</a>
+                </div>
+                <div class="col-md-5 col-sm-6" style="display: flex;flex-direction: column;">
+                    <a href="https://www.hashbazaar.com/">خانه</a>
+                    <a href="https://www.hashbazaar.com/collaboration">همکاری سازمانی</a>
+                    <a href="https://www.hashbazaar.com/blog">مجله</a>
+                </div>
+            </div>
+          </div>
+          <div class="contact-us col-lg-5 col-md-4 col-sm-12" style="text-align: right;">
+              <h6 class="text-center">تماس با ما</h6> 
+              <div class="tell">
+                   <a href="tel:+989371869568" style="color:white; cursor:pointer">
+                         0937 186 9568 &nbsp;<i class="fa fa-phone" aria-hidden="true"></i> 
+                   </a>
+              </div>
+              <div class="" style="direction:rtl">
+                   <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                تهران، میدان ونک، خیابان ملاصدرا، خیابان پردیس، پلاک ۷
+               </div>
+          </div>
+      </div>
+      <div class="container text-center copy-right">
+         <p>تمام حقوق مادی و معنوی آثار متعلق به هش بازار می باشد.</p>
+      </div>
+  </footer>
+
+
+<style type="text/css">
+    #header-navbar-menu {
+        text-align: right;
+    }
+    #header-navbar-menu ul li {
+        padding-right: 20px;
+    }
+    
+    .flags a {
+        float:right
+    }
+    
+    .flags a#persianFA {
+        border-left: 1px solid white;
+        margin-left: 10px
+    }
+
+    @media screen and (max-width:769px){
+        .flags {
+            margin-left: 95% !important
+        }
+    }
+
+    .footerrow {
+        font-size: 1.6rem
+    }
+    .followUs img {
+        height: 60px;
+
+    }
+    .followUs div {
+        margin-top: 5%;
+    }
+
+    footer {margin-top: 5%;}
+    footer a {
+        color: white;
+    }
+    .copy-right {margin-top: 2%;direction: rtl; font-size: 1rem;}
+
+    @media screen and (max-width:769px){
+      .followUs img {
+        height: 40px;
+       }
+       .followUs h6 {
+         font-size: 0.8rem;
+       }
+    }
+    @media screen and (max-width:420px){
+        .footerrow {
+            font-size: 1.2rem
+        }
+
+        .ctr {
+            margin-bottom: 5%
+        }
+
+         .tell {
+             text-align: center;
+             
+         } 
+         .copy-right {margin-top: 5%; font-size: 0.8rem;}  
+         .contact-us {margin-top: 5%;}
+         .important-links div{
+            width: 50%;text-align: center;
+         }
+         .important-links { margin-top: 5%; }
+         .followUs div a {
+            width: 33%;
+          }
+    }
+</style>
+        <!-- Scripts -->
+        <!-- <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script> -->
+        <!-- <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script>
+        <!-- <script src="{{ 'assets/javascript/jquery-3.3.1.js'|theme }}"></script> -->
+        <script src="{{ 'assets/javascript/jquery.animate-colors.js'|theme }}"></script>
+     <!--    {% framework extras %}
+        {% scripts %} -->
+<script type="text/javascript">
+    $(document).ready(function(){
+             var flag = 0;
+             $('.navigation-menu').click(function(){
+                console.log("navigation test");
+                if(flag == 0) {
+                  flag = 1 ;
+                  $('#header-navbar-menu').show();
+                  $('.navigation-menu').addClass( "change" );
+                    isOpen =true;
+
+                } else {
+                  flag = 0 ;
+                  $('#header-navbar-menu').hide();
+                  $('.navigation-menu').removeClass( "change" );
+                  isOpen =false;
+
+                }
+                
+            });
+         });
+</script>
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}

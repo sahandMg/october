@@ -144,7 +144,7 @@ header {
     left: 0;
     right: 0;
     width: 110%;
-    height: 120px;
+    /*height: 120px;*/
     background-color: black;
     font-size: 3.1rem;
     position: fixed;
@@ -853,13 +853,13 @@ color: orange;}
         }
        
         /* Bar */
-        .navigation-menu {
+     /*   .navigation-menu {
             background: transparent;
             border-bottom: transparent;
             margin-top: 43px;
             display: block;
             width: 35px;
-        }
+        }*/
         .navigation-menu .bar1, .bar2, .bar3 {
             width: 35px;
             height: 5px;
@@ -1095,11 +1095,7 @@ color: orange;}
     .useraccount {
         margin-left:76% !important;
     }
-    .navigation-menu {
-        margin-top: 25px;
-        display: block;
-        width: 35px;
-    }
+  
 
     /*  */
     body {
